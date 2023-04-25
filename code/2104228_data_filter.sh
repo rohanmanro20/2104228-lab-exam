@@ -7,6 +7,7 @@ field_value=$3
 
 top_2_char=${file_name:0:2}
 
+#above are under the assumption that the user will always give the file name and not the path name
 #once taken the inputs from the positional arguments generating appropriate file name
 saving_file_name="$top_2_char"_"$field_name"_"$field_value"
 
