@@ -1,0 +1,496 @@
+    1  ls
+    2  git
+    3  git --version
+    4  clear
+    5  git config --global user.name "rookyCIPHER"
+    6  git config --global user.email "dcrohanmanro@gmail.com"
+    7  ls -la ~/.ssh | grep 'id_rsa'
+    8  ssh-keygen -t RSA
+    9  cd ./ssh
+   10  cd ~/.ssh
+   11  clear
+   12  cat id_rsa.pub
+   13  git clone git@github.com:rohanmanro20/cs102-git-essentials.git
+   14  ls
+   15  cd ..
+   16  ls
+   17  mkdir CS102
+   18  mv ~/.ssh/cs102-git-essentials/ ./CS102
+   19  clear
+   20  cd CS102/
+   21  ls
+   22  chmod -r cs102-git-essentials/ 777
+   23  chmod -r 777  cs102-git-essentials/ 
+   24  chmod 777 cs102-git-essentials/ 
+   25  ls -la
+   26  clear
+   27  cd cs102-git-essentials/
+   28  ls
+   29  cat cs102-test.txt 
+   30  cat > sample.txt
+   31  ls
+   32  cat sample.txt
+   33  echo "On 2104228 device" >> sample.txt 
+   34  clear
+   35  cat sample.txt
+   36  git sttus
+   37  git status
+   38  clear
+   39  git add .
+   40  git commit -m "Created a sample.txt file"
+   41  git push -u origin master
+   42  git push -u origin main
+   43  cat sample.txt 
+   44  clear
+   45  git pull
+   46  cat sample.txt
+   47  clear
+   48  cd ..
+   49  rm -r cs102-git-essentials/
+   50  y
+   51  y4
+   52  clear
+   53  ls
+   54  cd ~/.ssh
+   55  rm *
+   56  ls
+   57  cd ..
+   58  git config --global user.name "rohanmanro20"
+   59  git config --global user.email "rohan.manro.21042@iitgoa.ac.in"
+   60  ssh-keygen -t RSA
+   61  clear
+   62  cd ~/.ssh
+   63  cat id_rsa.pub
+   64  git clone git@github.com:rohanmanro20/cs102-git-essentials.git
+   65  mkdir ~/CS102
+   66  mv cs102-git-essentials/ ~/CS102/
+   67  clear
+   68  cd ~/CS102
+   69  clear
+   70  chmod 777 cs102-git-essentials/
+   71  clear
+   72  cd cs102-git-essentials/
+   73  cat > sample.txt
+   74  clear
+   75  git add .
+   76  git commit -m "Created a new file Sample.txt"
+   77  git status
+   78  git push -u origin master
+   79  git push -u origin main
+   80  git pull
+   81  clear
+   82  cat sample.txt 
+   83  clear
+   84  exot
+   85  exit
+   86  clear
+   87  cd CS102/
+   88  cd cs102-git-essentials/
+   89  mkdir sample_repo
+   90  clear
+   91  rmdir sample_repo/
+   92  clear
+   93  cd ..
+   94  mkdir sample_repo
+   95  cd sample_repo/
+   96  cat > sample.md
+   97  git init
+   98  git remote add origin git@github.com:rohanmanro20/sample_repo.git
+   99  git status
+  100  git add .
+  101  git commit -m "Created a md file"
+  102  git push -u origin main
+  103  git push
+  104  git push -u origin master
+  105  clear
+  106  git pull
+  107  clear
+  108  git status
+  109  git log --oneline --decorate all
+  110  git log --oneline --decorate --graph all
+  111  git log
+  112  git log --oneline
+  113  git log --onelin --decorate
+  114  git log --oneline --decorate
+  115  git log --oneline --decorate --graph
+  116  git log --oneline --decorate --graph all
+  117  clear
+  118  git log --oneline --decorate --graph --all
+  119  git diff sample.md
+  120  clear
+  121  git --version
+  122  clear
+  123  git branch
+  124  git checkout -b feature_branch
+  125  cat test.txt
+  126  cat > test.txt
+  127  git status
+  128  git log --oneline --decoration --graph --all
+  129  git log --oneline --decorate --graph --all
+  130  git add .
+  131  git commit -m "Created a new file test.txt in feature branch"
+  132  git status
+  133  git commit -m "Created a new file test.txt in feature branch"
+  134  git log --oneline --decorate --graph --all
+  135  clear
+  136  git push -u origin feature_branch 
+  137  ls
+  138  git checkout branch
+  139  git checkout master 
+  140  ls
+  141  git checkout feature_branch 
+  142  ls
+  143  cat test.txt 
+  144  clear
+  145  git checkout master 
+  146  clear
+  147  git diff master
+  148  git diff feature_branch 
+  149  git merge feature_branch 
+  150  clear
+  151  git status
+  152  git merge feature_branch 
+  153  clear
+  154  git push 
+  155  git merge master 
+  156  git merge feature_branch 
+  157  git checkout feature_branch 
+  158  echo "HEYYYY" >> test.txt 
+  159  clear
+  160  git add .
+  161  git checkout master 
+  162  git merge feature_branch 
+  163  git checkout feature_branch 
+  164  echo "test" >> test.txt 
+  165  git checkout master 
+  166  git checkout feature_branch 
+  167  git add .
+  168  git diff
+  169  git status
+  170  clear
+  171  git commit -am "Updated test.txt"
+  172  git push 
+  173  clear
+  174  git checkout master 
+  175  git merge feature_branch 
+  176  clear
+  177  cat test.txt 
+  178  clear
+  179  git push 
+  180  ed test.txt 
+  181  vim test.txt 
+  182  git checkout feature_branch 
+  183  vim test.txt 
+  184  git add .
+  185  git commit -am "Updated test.txt"
+  186  git push 
+  187  git checkout master
+  188  clear
+  189  vim test.txt 
+  190  git diff
+  191  git add .
+  192  git commit -am "updated test.txt"
+  193  git push
+  194  git merge feature_branch 
+  195  vim test.txt 
+  196  clear
+  197  git merge feature_branch 
+  198  git add .
+  199  git status
+  200  git commit -am "resolved conflicts"
+  201  git merge feature_branch 
+  202  cat test.txt 
+  203  clear
+  204  git branch
+  205  git checkout feature_branch 
+  206  vim test.txt 
+  207  git status
+  208  git diff
+  209  git add .
+  210  git status
+  211  git reset
+  212  git status
+  213  git commit -am "Hey"
+  214  git status
+  215  git reset HEAD
+  216  git status
+  217  git add .
+  218  git status
+  219  git push
+  220  clear
+  221  vim test.txt 
+  222  git commit -am "Comitting"
+  223  git status
+  224  git diff
+  225  git checkout master
+  226  git checkout -D feature_branch 
+  227  git checkout -d feature_branch 
+  228  clear
+  229  git checkout -d feature_branch 
+  230  git branch -D feature_branch 
+  231  clear
+  232  git checkout -b feature_branch 
+  233  clear
+  234  git checkout feature_branch 
+  235  vim test.txt 
+  236  clear
+  237  git status
+  238  git diff
+  239  git commit -am "Commiting" 
+  240  c;ear
+  241  clear
+  242  git log --oneline --decorate --graph --all
+  243  clear
+  244  git reset HEAD~1
+  245  clear
+  246  git status
+  247  git log --oneline --decorate --graph --all
+  248  vim test.txt 
+  249  git commit -am "Commiting" 
+  250  clear
+  251  git push 
+  252  git push origin feature_branch 
+  253  git clear
+  254  clear
+  255  git clean
+  256  ckear
+  257  clear
+  258  git checkout master 
+  259  clrat
+  260  clear
+  261  git merge feature_branch 
+  262  git push 
+  263  clear
+  264  git branch -D feature_branch 
+  265  clear
+  266  git branch
+  267  git git pull
+  268  git pull
+  269  clear
+  270  git branch
+  271  git push
+  272  git branch -D feature_branch
+  273  clear
+  274  git branch
+  275  clear
+  276  cat > test1.txt
+  277  clear
+  278  git add .
+  279  git commit -m "Created test1.txt"
+  280  clear
+  281  git log --oneline
+  282  echo "bye bye" >> test1.txt 
+  283  git commit -am "updated test1.txt"
+  284  clear
+  285  git log --oneline
+  286  git commit --amend
+  287  git log
+  288  clear
+  289  git log --oneline
+  290  git status
+  291  git commit --amend
+  292  clear
+  293  ls
+  294  wall
+  295  write 2203121
+  296  write 2203121@mancurad
+  297  write 2203121
+  298  write 2104236
+  299  who
+  300  write 2104237
+  301  who | grep -iw '2104237'
+  302  clear
+  303  git clone git@github.com:rohanmanro20/2104228-lab-exam.git
+  304  ls
+  305  mv 2104228-lab-exam/ CS102/
+  306  clear
+  307  cd CS102/
+  308  ls
+  309  chmod 777 2104228-lab-exam/
+  310  clear
+  311  cd 2104228-lab-exam/
+  312  touch README.md
+  313  ls
+  314  vim README.md 
+  315  git status
+  316  clear
+  317  git add .
+  318  git commit -m "Created README.md"
+  319  git push origin master
+  320  cd ..
+  321  ls
+  322  git clone https://github.com/tusharlone/cs102-git-essentials.git
+  323  rm cs102-git-essentials/
+  324  rm -r cs102-git-essentials/
+  325  clear
+  326  ls
+  327  git clone https://github.com/tusharlone/cs102-git-essentials.git
+  328  ls cs102-git-essentials/
+  329  cp ./cs102-git-essentials/ca_500.csv ./2104228-lab-exam/
+  330  ls 2104228-lab-exam/
+  331  cp ./cs102-git-essentials/us_500.csv ./2104228-lab-exam/
+  332  ls 2104228-lab-exam/
+  333  git add .
+  334  cd 2104228-lab-exam/
+  335  git add .
+  336  git commit -m "Added ca_500.csv and us_500.csv"
+  337  git push -u origin master
+  338  vim 2104228_question5.sh
+  339  LS
+  340  ls
+  341  chmod 777 2104228_question5.sh 
+  342  ./2104228_question5.sh ca_500.csv us_500.csv 
+  343  vim 2104228_question5.sh
+  344  ./2104228_question5.sh ca_500.csv us_500.csv 
+  345  vim 2104228_question5.sh
+  346  ./2104228_question5.sh ca_500.csv us_500.csv 
+  347  vim 2104228_question6.sh
+  348  chmod 777 2104228_question6.sh 
+  349  ./2104228_question6.sh ca_500.csv us_500.csv 
+  350  vim 2104228_question6.sh
+  351  ./2104228_question6.sh ca_500.csv us_500.csv 
+  352  vim 2104228_question6.sh
+  353  ./2104228_question6.sh ca_500.csv us_500.csv 
+  354  vim 2104228_question7.sh
+  355  ls
+  356  vim 2104228_question7.sh
+  357  chmod 777 2104228_question7.sh 
+  358  ./2104228_question7.sh ca_500.csv
+  359  ls
+  360  cat ca_city_Montreal.csv 
+  361  vim 2104228_question7.sh
+  362  rm ca_city_Montreal.csv
+  363  ls
+  364  rm ca_city_Montreal.csv
+  365  ls
+  366  rm ca_city_Monteal.csv 
+  367* 
+  368  ls
+  369  cat ca_city_Montreal.csv
+  370  head ca_city_Montreal.csv 
+  371  vim 2104228_question7.sh
+  372  rm ca_city_Monteal.csv 
+  373  rm ca_city_Montreal.csv
+  374  clear
+  375  ./2104228_question7.sh ca_500.csv
+  376  vim 2104228_question8.sh
+  377  clear
+  378  vim 2104228_question5.sh
+  379  wc -l ca_500.csv 
+  380  wc -l us_500.csv 
+  381  vim 2104228_question6.sh
+  382  head -n 1 ca_500.csv
+  383  head -n 1 us_500.csv
+  384  vim 2104228_question7.sh
+  385  grep -iw 'Montreal' ca_500.csv 
+  386  vim 2104228_question8.sh
+  387  cat ca_500.csv 
+  388  vim 2104228_question8.sh
+  389  chmod 777 2104228_question8.sh 
+  390  ./2104228_question8.sh 
+  391  cat ca_city_Montreal.csv 
+  392  vim 2104228_question7.sh
+  393  vim 2104228_question8.sh
+  394  ./2104228_question8.sh 
+  395  cat ca_city_Montreal.csv 
+  396  clear
+  397  ./2104228_question8.sh 
+  398  ls
+  399  rm ca_city_Montreal.csv 
+  400  clear
+  401  vim 2104228_question8.sh 
+  402  ./2104228_question8.sh 
+  403  ls
+  404  cat ca_city_Montreal.txt 
+  405  ./2104228_question8.sh 
+  406  vim 2104228_question8.sh 
+  407  ./2104228_question8.sh 
+  408  cat ca_city_Montreal.txt 
+  409  clear
+  410  vim ca_city_Montreal.txt 
+  411  ./2104228_question8.sh 
+  412  vim 2104228_question8.sh 
+  413  ./2104228_question8.sh 
+  414  cat ca_city_Montreal.csv
+  415  vim 2104228_question8.sh 
+  416  ./2104228_question8.sh 
+  417  cat ca_city_Montreal.csv
+  418  vim 2104228_question8.sh 
+  419  ./2104228_question8.sh 
+  420  cat ca_city_Montreal.csv
+  421  clear
+  422  vim 2104228_question8.sh 
+  423  rm ca_city_Montreal.
+  424  rm ca_city_Montreal.csv
+  425  rm ca_city_Montreal.txt
+  426  vim 2104228_question8.sh 
+  427  head -n 1 ca_500.csv > ca_city_Montreal.csv
+  428  grep -iw 'Montreal' ca_500.csv >> ca_city_Montreal.csv 
+  429  cat ca_city_Montreal.csv
+  430  vim 2104228_question8.sh 
+  431  ./2104228_question8.sh 
+  432  clear
+  433  ls
+  434  vim 2104228_data_filter.sh
+  435  chmod 777 2104228_data_filter.sh 
+  436  ./2104228_data_filter.sh 
+  437  vim 2104228_data_filter.sh
+  438  ./2104228_data_filter.sh 
+  439  vim 2104228_data_filter.sh
+  440  ./2104228_data_filter.sh 
+  441  vim 2104228_data_filter.sh
+  442  ./2104228_data_filter.sh 
+  443  vim 2104228_data_filter.sh
+  444  ./2104228_data_filter.sh 
+  445  vim 2104228_data_filter.sh
+  446  ./2104228_data_filter.sh 
+  447  vim 2104228_data_filter.sh
+  448  ./2104228_data_filter.sh  us_500 city Miami
+  449  lear
+  450  clear
+  451  vim 2104228_data_filter.sh
+  452  ./2104228_data_filter.sh  us_500 city Miami
+  453  vim 2104228_data_filter.sh
+  454  ./2104228_data_filter.sh  us_500 city Miami
+  455  vim 2104228_data_filter.sh
+  456  ./2104228_data_filter.sh  us_500 city Miami
+  457  vim 2104228_data_filter.sh
+  458  ./2104228_data_filter.sh  us_500 city Miami
+  459  ./2104228_data_filter.sh  us_500.csv city Miami
+  460  vim 2104228_data_filter.sh
+  461  ./2104228_data_filter.sh  us_500.csv city Miami
+  462  clear
+  463  vim 2104228_data_filter.sh
+  464  ./2104228_data_filter.sh  us_500.csv city Miami
+  465  vim 2104228_data_filter.sh
+  466  ./2104228_data_filter.sh  us_500.csv city Miami
+  467  vim 2104228_data_filter.sh
+  468  ./2104228_data_filter.sh  us_500.csv city Miami
+  469  vim 2104228_data_filter.sh
+  470  ./2104228_data_filter.sh  us_500.csv city Miami
+  471  clear
+  472  vim 2104228_data_filter.sh
+  473  ./2104228_data_filter.sh  us_500.csv city Miami
+  474  ls
+  475  cat us_city_Miami.csv 
+  476  clear
+  477  ls
+  478  vim 2104228_data_filter.sh 
+  479  ./2104228_data_filter.sh  ca_500.csv city Montreal
+  480  ls
+  481  cat ca_city_Montreal.csv 
+  482  rm ca_city_Montreal.csv 
+  483  clear
+  484  ./2104228_question8.sh 
+  485  ls
+  486  cat ca_city_Montreal.csv 
+  487  ./2104228_data_filter.sh  us_500.csv city Miami
+  488  cat us_city_Miami.csv 
+  489  mkdir code
+  490  mv *.sh ./code/
+  491  mkdir data
+  492  mv *.csv ./data/
+  493  history -500
+  494  history -d 500
+  495  history
+  496  history > 2104228_history.txt
