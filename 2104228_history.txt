@@ -494,3 +494,21 @@
   494  history -d 500
   495  history
   496  history > 2104228_history.txt
+  497  ls
+  498  clear
+  499  cat history.txt
+  500  cat 2104228_history.txt 
+  501  clea
+  502  clear
+  503  git status
+  504  git add .
+  505  git commit -m "Created data and code folders, and also attached history files"
+  506  git status
+  507  git push origin master
+  508  vim 2104228_data_filter.sh 
+  509  ls
+  510  vim ./code/2104228_data_filter.sh 
+  511  git add .
+  512  git commit -m "Updated data filter script for the assumption"
+  513  git push
+  514  history >2104228_history.txt 
