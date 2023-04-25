@@ -1,4 +1,4 @@
-us_500.csv,city,Miami,9
+us_500.csv,City,Miami,9
 "first_name","last_name","company_name","address","city","county","state","zip","phone1","phone2","email","web"
 "Lavera","Perin","Abc Enterprises Inc","678 3rd Ave","Miami","Miami-Dade","FL",33196,"305-606-7291","305-995-2078","lperin@perin.org","http://www.abcenterprisesinc.com"
 "Tiffiny","Steffensmeier","Whitehall Robbins Labs Divsn","32860 Sierra Rd","Miami","Miami-Dade","FL",33133,"305-385-9695","305-304-6573","tiffiny_steffensmeier@cox.net","http://www.whitehallrobbinslabsdivsn.com"
